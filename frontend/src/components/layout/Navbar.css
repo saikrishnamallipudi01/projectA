@@ -1,0 +1,202 @@
+/* ── Notification bell button ── */
+.notif-bell-btn {
+    position: relative;
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: .42rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .2s;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    color: var(--text-primary);
+    min-width: 40px;
+    min-height: 40px;
+    justify-content: center;
+}
+
+.notif-bell-btn:hover {
+    border-color: var(--primary-border);
+    background: var(--primary-light);
+}
+
+/* Pulse ring when there are new booking requests */
+.notif-bell-btn.has-new {
+    border-color: var(--accent-border);
+    animation: bellPulse 2s ease-in-out infinite;
+}
+
+@keyframes bellPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(234,179,8,.4); }
+    50%       { box-shadow: 0 0 0 6px rgba(234,179,8,0); }
+}
+
+/* Unread count badge */
+.notif-badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background: var(--danger);
+    color: white;
+    border-radius: 999px;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 4px;
+    font-size: .62rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ── Notification dropdown ── */
+.notif-dropdown {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: -24px;
+    width: 360px;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: 0 16px 48px rgba(0,0,0,.16);
+    z-index: 1001;
+    overflow: hidden;
+    animation: scaleIn .18s ease;
+    /* smooth scroll on Android */
+    -webkit-overflow-scrolling: touch;
+}
+
+.notif-header {
+    padding: .9rem 1rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.notif-list {
+    max-height: 420px;
+    overflow-y: auto;
+    background: #ffffff;
+    -webkit-overflow-scrolling: touch;
+}
+
+.notif-item {
+    padding: .75rem 1rem;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    transition: all .15s;
+    min-height: 52px;
+}
+
+.notif-item:hover { background: var(--bg-subtle) !important; }
+.notif-item:last-child { border-bottom: none; }
+
+.notif-action-btn {
+    background: none;
+    border: none;
+    color: var(--primary);
+    font-size: .73rem;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    transition: all .15s;
+}
+.notif-action-btn:hover { background: var(--primary-light); }
+
+.notif-close-btn {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1rem;
+    cursor: pointer;
+    line-height: 1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    transition: all .15s;
+}
+.notif-close-btn:hover { background: var(--bg-subtle); color: var(--text-primary); }
+
+/* Track token button */
+.nav-track-btn {
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius-full);
+    font-weight: 700;
+    font-size: .78rem;
+    padding: .5rem 1rem;
+    box-shadow: var(--shadow-md);
+    cursor: pointer;
+    transition: transform .2s, box-shadow .2s;
+    white-space: nowrap;
+    font-family: 'Inter', sans-serif;
+    min-height: 38px;
+}
+.nav-track-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Center nav links */
+.nav-center-links {
+    display: flex;
+    gap: 1.5rem;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* ── Mobile: compact nav ── */
+@media (max-width: 640px) {
+    .nav-center-links {
+        display: none; /* hidden in mobile, accessible via user-bar */
+    }
+
+    .nav-btn-label {
+        display: none; /* show only icon on mobile */
+    }
+
+    .nav-track-btn {
+        padding: .45rem .7rem;
+        font-size: .75rem;
+    }
+
+    /* Full-width dropdown on mobile (Android safe) */
+    .notif-dropdown {
+        position: fixed !important;
+        top: 64px !important;
+        left: 6px !important;
+        right: 6px !important;
+        width: auto !important;
+        max-height: 75vh !important;
+        border-radius: 12px !important;
+        overflow-y: hidden !important;
+    }
+
+    .notif-list {
+        max-height: calc(75vh - 100px) !important;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 641px) {
+    .notif-dropdown {
+        width: 310px !important;
+        right: -50px !important;
+    }
+}

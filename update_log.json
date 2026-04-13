@@ -1,0 +1,388 @@
+{
+  "catList": [
+    {
+      "name": "Networking",
+      "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&q=80"
+    },
+    {
+      "name": "Electrical",
+      "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80"
+    },
+    {
+      "name": "CCTV / Security",
+      "image": "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=800&q=80"
+    },
+    {
+      "name": "AC & Cooling",
+      "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=80"
+    },
+    {
+      "name": "Hardware / IT",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "name": "Home Appliances",
+      "image": "https://images.unsplash.com/photo-1626806787461-102c1a7f1b7b?w=800&q=80"
+    },
+    {
+      "name": "Mechanical",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80"
+    },
+    {
+      "name": "Smart Home",
+      "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=800&q=80"
+    },
+    {
+      "name": "Agriculture Services",
+      "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80"
+    }
+  ],
+  "srvList": [
+    {
+      "name": "LAN / WAN Setup",
+      "image": "https://loremflickr.com/800/600/lan,wan,setup/all"
+    },
+    {
+      "name": "Wi-Fi Router Config",
+      "image": "https://images.unsplash.com/photo-1606904825846-647eb07f5be2?w=600&q=80"
+    },
+    {
+      "name": "Network Troubleshoot",
+      "image": "https://images.unsplash.com/photo-1527430253228-e93688616381?w=600&q=80"
+    },
+    {
+      "name": "Firewall & Security",
+      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80"
+    },
+    {
+      "name": "VPN Setup",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80"
+    },
+    {
+      "name": "Cable Management",
+      "image": "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=600&q=80"
+    },
+    {
+      "name": "House Wiring",
+      "image": "https://loremflickr.com/800/600/house,wiring/all"
+    },
+    {
+      "name": "DB Board Upgrade",
+      "image": "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=600&q=80"
+    },
+    {
+      "name": "Switchboard Repair",
+      "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"
+    },
+    {
+      "name": "Ceiling Fan Install",
+      "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80"
+    },
+    {
+      "name": "Solar Panel Install",
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=80"
+    },
+    {
+      "name": "Earthing & Testing",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&q=80"
+    },
+    {
+      "name": "CCTV Installation",
+      "image": "https://loremflickr.com/800/600/cctv,installation/all"
+    },
+    {
+      "name": "DVR / NVR Setup",
+      "image": "https://images.unsplash.com/photo-1572521165329-b197f9ea3da6?w=600&q=80"
+    },
+    {
+      "name": "Camera Maintenance",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&q=80"
+    },
+    {
+      "name": "IP Camera Config",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80"
+    },
+    {
+      "name": "Night Vision Setup",
+      "image": "https://images.unsplash.com/photo-1516117172878-fd2c41f4a759?w=600&q=80"
+    },
+    {
+      "name": "Video Door Bell",
+      "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=600&q=80"
+    },
+    {
+      "name": "AC Installation",
+      "image": "/assets/images/ac_installation.png"
+    },
+    {
+      "name": "AC Service / Cleaning",
+      "image": "/assets/images/ac_maintenance.png"
+    },
+    {
+      "name": "AC Repair",
+      "image": "/assets/images/ac_repair.png"
+    },
+    {
+      "name": "Gas Refilling",
+      "image": "https://loremflickr.com/800/600/air,conditioner,gas,technician/all"
+    },
+    {
+      "name": "Exhaust Fan Fix",
+      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&q=80"
+    },
+    {
+      "name": "Water Dispenser Repair",
+      "image": "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?w=600&q=80"
+    },
+    {
+      "name": "PC Assembly",
+      "image": "https://loremflickr.com/800/600/pc,assembly/all"
+    },
+    {
+      "name": "Laptop Repair",
+      "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600&q=80"
+    },
+    {
+      "name": "Virus Removal",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80"
+    },
+    {
+      "name": "RAM / SSD Upgrade",
+      "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&q=80"
+    },
+    {
+      "name": "Printer Setup",
+      "image": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=600&q=80"
+    },
+    {
+      "name": "Data Recovery",
+      "image": "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=600&q=80"
+    },
+    {
+      "name": "Washing Machine Repair",
+      "image": "https://loremflickr.com/800/600/washing,machine,repair/all"
+    },
+    {
+      "name": "Refrigerator Repair",
+      "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=600&q=80"
+    },
+    {
+      "name": "Microwave Repair",
+      "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=600&q=80"
+    },
+    {
+      "name": "TV / Display Repair",
+      "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f4834c?w=600&q=80"
+    },
+    {
+      "name": "Water Heater Service",
+      "image": "https://images.unsplash.com/photo-1604014237256-11d475e2a2d8?w=600&q=80"
+    },
+    {
+      "name": "Mixer / Grinder Fix",
+      "image": "https://images.unsplash.com/photo-1591689937610-7b783dba93a4?w=600&q=80"
+    },
+    {
+      "name": "Plumbing Repair",
+      "image": "https://loremflickr.com/800/600/plumbing,repair/all"
+    },
+    {
+      "name": "Bathroom Fitting",
+      "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=80"
+    },
+    {
+      "name": "Motor Pump Service",
+      "image": "https://images.unsplash.com/photo-1611735341450-74d61e660ad2?w=600&q=80"
+    },
+    {
+      "name": "Door / Lock Repair",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&q=80"
+    },
+    {
+      "name": "Tile / Grout Fix",
+      "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80"
+    },
+    {
+      "name": "False Ceiling Work",
+      "image": "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80"
+    },
+    {
+      "name": "Smart Lighting Setup",
+      "image": "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?w=600&q=80"
+    },
+    {
+      "name": "Smart Lock Install",
+      "image": "https://images.unsplash.com/photo-1622556498246-755f44ca76f3?w=600&q=80"
+    },
+    {
+      "name": "Home Automation Hub",
+      "image": "https://loremflickr.com/800/600/home,automation,hub/all"
+    },
+    {
+      "name": "Smart TV Setup",
+      "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f4834c?w=600&q=80"
+    },
+    {
+      "name": "CCTV + Smart Alert",
+      "image": "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&q=80"
+    },
+    {
+      "name": "Smart Irrigation",
+      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80"
+    },
+    {
+      "name": "Tractor Renting",
+      "image": "https://images.unsplash.com/photo-1592982537447-6f2a6a0c6c06?w=600&q=80"
+    },
+    {
+      "name": "Crop Harvesting",
+      "image": "https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?w=600&q=80"
+    },
+    {
+      "name": "Pesticide Spraying",
+      "image": "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=600&q=80"
+    }
+  ],
+  "log": [
+    {
+      "type": "Category",
+      "name": "Networking",
+      "old": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&q=80",
+      "new": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&q=80",
+      "reason": "Old image already correct and meaningful for the category meaning."
+    },
+    {
+      "type": "Category",
+      "name": "Electrical",
+      "old": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80",
+      "new": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80",
+      "reason": "Old image already correct and meaningful for the category meaning."
+    },
+    {
+      "type": "Category",
+      "name": "CCTV / Security",
+      "old": "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=800&q=80",
+      "new": "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=800&q=80",
+      "reason": "Old image already correct and meaningful for the category meaning."
+    },
+    {
+      "type": "Category",
+      "name": "AC & Cooling",
+      "old": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=80",
+      "new": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=80",
+      "reason": "Old image already correct and meaningful for the category meaning."
+    },
+    {
+      "type": "Category",
+      "name": "Hardware / IT",
+      "old": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+      "new": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+      "reason": "Old image already correct and meaningful for the category meaning."
+    },
+    {
+      "type": "Category",
+      "name": "Home Appliances",
+      "old": "https://images.unsplash.com/photo-1626806787461-102c1a7f1b7b?w=800&q=80",
+      "new": "https://images.unsplash.com/photo-1626806787461-102c1a7f1b7b?w=800&q=80",
+      "reason": "Old image already correct and meaningful for the category meaning."
+    },
+    {
+      "type": "Category",
+      "name": "Mechanical",
+      "old": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+      "new": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+      "reason": "Old image already correct and meaningful for the category meaning."
+    },
+    {
+      "type": "Category",
+      "name": "Smart Home",
+      "old": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=800&q=80",
+      "new": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=800&q=80",
+      "reason": "Old image already correct and meaningful for the category meaning."
+    },
+    {
+      "type": "Category",
+      "name": "Agriculture Services",
+      "old": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80",
+      "new": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80",
+      "reason": "Old image already correct and meaningful for the category meaning."
+    },
+    {
+      "type": "Service",
+      "name": "LAN / WAN Setup",
+      "old": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&q=80",
+      "new": "https://loremflickr.com/800/600/lan,wan,setup/all",
+      "reason": "Old image reuses category image. Updated to specific relevant image matching description."
+    },
+    {
+      "type": "Service",
+      "name": "House Wiring",
+      "old": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80",
+      "new": "https://loremflickr.com/800/600/house,wiring/all",
+      "reason": "Old image reuses category image. Updated to specific relevant image matching description."
+    },
+    {
+      "type": "Service",
+      "name": "CCTV Installation",
+      "old": "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&q=80",
+      "new": "https://loremflickr.com/800/600/cctv,installation/all",
+      "reason": "Old image reuses category image. Updated to specific relevant image matching description."
+    },
+    {
+      "type": "Service",
+      "name": "AC Installation",
+      "old": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80",
+      "new": "/assets/images/ac_installation.png",
+      "reason": "Specific rule enforced to update to specific service image."
+    },
+    {
+      "type": "Service",
+      "name": "AC Service / Cleaning",
+      "old": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+      "new": "/assets/images/ac_maintenance.png",
+      "reason": "Specific rule enforced to update to specific service image."
+    },
+    {
+      "type": "Service",
+      "name": "AC Repair",
+      "old": "https://images.unsplash.com/photo-1491002052546-bf38f186af56?w=600&q=80",
+      "new": "/assets/images/ac_repair.png",
+      "reason": "Specific rule enforced to update to specific service image."
+    },
+    {
+      "type": "Service",
+      "name": "Gas Refilling",
+      "old": "https://images.unsplash.com/photo-1543512214-318c7553f230?w=600&q=80",
+      "new": "https://loremflickr.com/800/600/air,conditioner,gas,technician/all",
+      "reason": "Specific rule enforced to update to specific service image."
+    },
+    {
+      "type": "Service",
+      "name": "PC Assembly",
+      "old": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+      "new": "https://loremflickr.com/800/600/pc,assembly/all",
+      "reason": "Old image reuses category image. Updated to specific relevant image matching description."
+    },
+    {
+      "type": "Service",
+      "name": "Washing Machine Repair",
+      "old": "https://images.unsplash.com/photo-1626806787461-102c1a7f1b7b?w=600&q=80",
+      "new": "https://loremflickr.com/800/600/washing,machine,repair/all",
+      "reason": "Old image reuses category image. Updated to specific relevant image matching description."
+    },
+    {
+      "type": "Service",
+      "name": "Plumbing Repair",
+      "old": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80",
+      "new": "https://loremflickr.com/800/600/plumbing,repair/all",
+      "reason": "Old image reuses category image. Updated to specific relevant image matching description."
+    },
+    {
+      "type": "Service",
+      "name": "Home Automation Hub",
+      "old": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=600&q=80",
+      "new": "https://loremflickr.com/800/600/home,automation,hub/all",
+      "reason": "Old image reuses category image. Updated to specific relevant image matching description."
+    }
+  ]
+}

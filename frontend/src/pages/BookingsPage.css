@@ -1,0 +1,10 @@
+/* BookingsPage styles in global index.css — .bk-card, .steps, .step-dot, .step-line, .step-lbl */
+
+.bk-hero {
+  background: linear-gradient(135deg, var(--navy2) 0%, var(--navy3) 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 3rem 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}

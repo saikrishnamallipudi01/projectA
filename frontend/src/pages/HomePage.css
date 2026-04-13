@@ -1,0 +1,10 @@
+/* HomePage — globally controlled by index.css: .stats, .token-callout, .btn-get-token, .cat-grid etc. */
+
+.btn-hero {
+  display: inline-block;
+  animation: float 3s ease infinite;
+}
+
+@media(max-width: 640px) {
+  .btn-hero { font-size: .82rem; padding: .8rem 1.4rem !important; }
+}

@@ -1,0 +1,170 @@
+/* ── INVOICE PAGE STYLES ── */
+
+/* Print-only header that shows date and page title */
+.inv-print-header {
+    display: none; /* hidden on screen */
+}
+
+/* Invoice card */
+.invoice {
+    background: var(--bg-white);
+    color: var(--text-primary);
+    border-radius: var(--radius-lg);
+    padding: 2.5rem 2.8rem;
+    margin-top: .5rem;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Top layout: INVOICE left, company right */
+.inv-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1.5px solid var(--border);
+}
+
+.inv-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    letter-spacing: -1px;
+    margin-bottom: .5rem;
+}
+
+.inv-meta {
+    font-size: .78rem;
+    color: var(--text-secondary);
+    margin: .18rem 0;
+    line-height: 1.55;
+    font-weight: 500;
+}
+
+.inv-company {
+    text-align: right;
+    font-size: .78rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+.inv-company-name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.08rem;
+    color: var(--text-primary);
+    margin-bottom: .2rem;
+}
+
+/* Invoice table */
+.inv-tbl {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    font-size: .87rem;
+}
+
+.inv-tbl th {
+    background: var(--bg-subtle);
+    padding: .75rem 1rem;
+    text-align: left;
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    color: var(--text-muted);
+    font-weight: 700;
+    border-bottom: 2px solid var(--border);
+}
+
+.inv-tbl td {
+    padding: .85rem 1rem;
+    border-bottom: 1px solid var(--bg-subtle);
+    vertical-align: top;
+}
+
+.inv-tbl tfoot td {
+    border-bottom: none;
+}
+
+/* Invoice footer */
+.inv-footer-line {
+    margin-top: 2rem;
+    font-size: .72rem;
+    color: var(--text-muted);
+    border-top: 1px solid var(--bg-subtle);
+    padding-top: .8rem;
+}
+
+/* ── PRINT / PDF STYLES ── */
+@media print {
+    /* Show print header */
+    .inv-print-header {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        font-size: .72rem;
+        color: var(--text-secondary);
+        padding: 0 0 .75rem 0;
+        border-bottom: 1px solid var(--border);
+        margin-bottom: 1.5rem;
+    }
+
+    /* Hide all UI chrome */
+    .no-print,
+    nav, .ubar, footer,
+    .sec-tag, .sec-title, .sec-sub,
+    .tab-bar, .auth-tabs { display: none !important; }
+
+    body {
+        background: white !important;
+        padding: 0 !important;
+        color: black !important;
+        font-size: 13px !important;
+    }
+
+    .main {
+        padding: .5rem 1rem !important;
+        margin: 0 !important;
+        max-width: 100% !important;
+    }
+
+    .inv-page-wrap { width: 100%; }
+
+    .invoice {
+        border: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+        box-shadow: none !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .inv-tbl th {
+        background: #f1f5f9 !important;
+        color: #374151 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* Token slip in print */
+    .token-slip-container { page-break-inside: avoid; }
+    .token-slip-card {
+        background: white !important;
+        border: 1.5px solid #d97706 !important;
+        box-shadow: none !important;
+        animation: none !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color: black !important;
+    }
+    .token-slip-card * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}

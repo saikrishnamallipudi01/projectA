@@ -1,0 +1,106 @@
+{
+  "replaced": [
+    "Plumbing Repair",
+    "Bathroom Fitting",
+    "Motor Pump Service",
+    "Door / Lock Repair",
+    "Tile / Grout Fix",
+    "False Ceiling Work",
+    "Smart Lighting Setup",
+    "Smart Lock Install",
+    "Home Automation Hub",
+    "Smart TV Setup",
+    "Smart Irrigation",
+    "mechanical",
+    "smart",
+    "CCTV + Smart Alert"
+  ],
+  "unchanged": [],
+  "log": [
+    {
+      "serviceName": "Plumbing Repair",
+      "oldImage": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=600&q=80",
+      "newImage": "https://source.unsplash.com/800x600/?plumber%2Cfixing%2Cpipe%2Cleakage%2Cplumbing%2Crepair%2Cunder%2Csink",
+      "reason": "Technician fixing leaking pipe under sink"
+    },
+    {
+      "serviceName": "Bathroom Fitting",
+      "oldImage": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80",
+      "newImage": "https://source.unsplash.com/800x600/?bathroom%2Cfitting%2Cinstallation%2Cplumber",
+      "reason": "Technician installing sink/shower fittings"
+    },
+    {
+      "serviceName": "Motor Pump Service",
+      "oldImage": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&q=80",
+      "newImage": "https://source.unsplash.com/800x600/?water%2Cpump%2Crepair%2Ctechnician%2Cmotor%2Cpump%2Cservice%2Crepair",
+      "reason": "Technician repairing water motor pump"
+    },
+    {
+      "serviceName": "Door / Lock Repair",
+      "oldImage": "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=600&q=80",
+      "newImage": "https://source.unsplash.com/800x600/?door%2Clock%2Crepair%2Ctechnician%2Clocksmith%2Cfixing%2Cdoor%2Clock",
+      "reason": "Locksmith repairing door lock"
+    },
+    {
+      "serviceName": "Tile / Grout Fix",
+      "oldImage": "https://images.unsplash.com/photo-1523413184730-e85dbbd04aba?w=600&q=80",
+      "newImage": "https://source.unsplash.com/800x600/?tile%2Cinstallation%2Cworker%2Cgrout%2Cfixing",
+      "reason": "Worker installing tiles and applying grout"
+    },
+    {
+      "serviceName": "False Ceiling Work",
+      "oldImage": "https://images.unsplash.com/photo-1600607687939-ce8a6d9db9b1?w=600&q=80",
+      "newImage": "https://source.unsplash.com/800x600/?false%2Cceiling%2Cinstallation%2Cgypsum%2Cworkers",
+      "reason": "Technicians installing gypsum false ceiling"
+    },
+    {
+      "serviceName": "Smart Lighting Setup",
+      "oldImage": "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?w=600&q=80",
+      "newImage": "https://source.unsplash.com/800x600/?smart%2Clighting%2Cinstallation%2Ctechnician",
+      "reason": "Technician installing smart LED lights with wiring"
+    },
+    {
+      "serviceName": "Smart Lock Install",
+      "oldImage": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&q=80",
+      "newImage": "https://source.unsplash.com/800x600/?smart%2Cdoor%2Clock%2Cinstallation%2Ctechnician",
+      "reason": "Technician installing digital smart lock"
+    },
+    {
+      "serviceName": "Home Automation Hub",
+      "oldImage": "https://images.unsplash.com/photo-1558002038-1055907df827?w=600&q=80",
+      "newImage": "https://source.unsplash.com/800x600/?smart%2Chome%2Cautomation%2Csetup%2Ctechnician",
+      "reason": "Smart home hub setup with devices"
+    },
+    {
+      "serviceName": "Smart TV Setup",
+      "oldImage": "https://images.unsplash.com/photo-1593784991095-a205069533cd?w=600&q=80",
+      "newImage": "https://source.unsplash.com/800x600/?TV%2Cwall%2Cmount%2Cinstallation%2Ctechnician",
+      "reason": "Technician wall mounting TV and connecting cables"
+    },
+    {
+      "serviceName": "Smart Irrigation",
+      "oldImage": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80",
+      "newImage": "https://source.unsplash.com/800x600/?smart%2Cirrigation%2Csystem%2Cgarden%2Csprinklers",
+      "reason": "Automated irrigation system with sprinklers and pipes"
+    },
+    {
+      "serviceName": "mechanical",
+      "oldImage": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+      "newImage": "https://source.unsplash.com/800x600/?home%2Crepair%2Cservices%2Ctechnician%2Ctools",
+      "reason": "Technician doing plumbing, drilling, and repair work"
+    },
+    {
+      "serviceName": "smart",
+      "oldImage": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=800&q=80",
+      "newImage": "https://source.unsplash.com/800x600/?smart%2Chome%2Cdevices%2Cautomation%2Cmodern%2Chouse",
+      "reason": "Modern smart home with lighting, CCTV, automation devices"
+    },
+    {
+      "serviceName": "CCTV + Smart Alert",
+      "oldImage": "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&q=80",
+      "newImage": "https://source.unsplash.com/800x600/?CCTV%2Cinstallation%2Ctechnician%2Chome%2Csecurity",
+      "reason": "Technician installing CCTV cameras"
+    }
+  ],
+  "confirmed": "All incorrect service images replaced successfully without affecting functionality."
+}

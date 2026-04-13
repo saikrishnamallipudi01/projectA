@@ -1,0 +1,137 @@
+/* ── TOKEN SLIP — matches screenshot design ── */
+
+.token-slip-container {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.token-slip-card {
+    background: var(--bg-white);
+    border: 1.5px solid var(--accent-border);
+    border-radius: var(--radius-lg);
+    padding: 2rem 1.8rem 1.4rem;
+    text-align: center;
+    position: relative;
+    animation: tokenReveal .6s cubic-bezier(.34, 1.56, .64, 1) both;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05), var(--shadow-sm);
+}
+
+.tkn-brand-label {
+    font-size: .65rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1.2rem;
+}
+
+.tkn-icon-box {
+    width: 72px;
+    height: 72px;
+    background: var(--bg-subtle);
+    border-radius: var(--radius-md);
+    margin: 0 auto 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border);
+}
+
+.tkn-code-display {
+    font-family: 'Inter', monospace; /* Used inter since jetbrains is removed entirely */
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: var(--accent);
+    letter-spacing: 4px;
+    margin-bottom: .2rem;
+}
+
+.tkn-divider {
+    height: 1px;
+    background: var(--border);
+    margin: 1.2rem 0;
+}
+
+.tkn-details {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+}
+
+.tkn-row {
+    display: flex;
+    align-items: flex-start;
+    gap: .6rem;
+    font-size: .85rem;
+    color: var(--text-secondary);
+    margin-bottom: .6rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.tkn-row span:first-child {
+    flex-shrink: 0;
+    width: 1.2rem;
+    color: var(--accent);
+}
+
+.tkn-footer {
+    margin-top: 1.2rem;
+    font-size: .75rem;
+    color: var(--text-muted);
+    letter-spacing: .5px;
+}
+
+.tkn-actions {
+    display: flex;
+    gap: .7rem;
+    margin-top: 1.2rem;
+}
+
+.tkn-btn-print {
+    flex: 1;
+    background: transparent;
+    border: 1.5px solid var(--accent-border);
+    color: var(--accent);
+    border-radius: var(--radius-md);
+    padding: .65rem;
+    font-size: .85rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s;
+}
+.tkn-btn-print:hover { background: var(--accent-light); }
+
+.tkn-btn-done {
+    flex: 1;
+    background: var(--accent);
+    border: none;
+    color: #fff;
+    border-radius: var(--radius-md);
+    padding: .65rem;
+    font-size: .85rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all .2s;
+}
+.tkn-btn-done:hover { opacity: .9; transform: translateY(-1px); }
+
+/* ── PRINT RULES ── */
+@media print {
+    .token-slip-container { page-break-inside: avoid; }
+    .token-slip-card {
+        background: white !important;
+        border: 1.5px solid #d97706 !important;
+        box-shadow: none !important;
+        animation: none !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .token-slip-card * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    .no-print { display: none !important; }
+}

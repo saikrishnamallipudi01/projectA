@@ -1,0 +1,14 @@
+/* ServiceDetailPage styles are in global index.css — .svc-hero, .back-btn, .process-steps, .why-grid, .why-card etc. */
+
+.sdp-loading {
+  text-align: center;
+  padding: 6rem 1rem;
+  color: var(--primary);
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+@media(max-width: 640px) {
+  .svc-hero { height: 280px; }
+}

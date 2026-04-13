@@ -1,0 +1,12 @@
+/* ===== SAFE IMAGE FIX ===== */
+
+.cat-img-wrapper {
+    width: 100%;
+    height: 160px;
+}
+
+.cat-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}

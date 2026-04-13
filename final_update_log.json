@@ -1,0 +1,125 @@
+{
+  "replaced": [
+    "House Wiring",
+    "Switchboard Repair",
+    "Ceiling Fan Install",
+    "Earthing & Testing",
+    "Gas Refilling",
+    "Exhaust Fan Fix",
+    "Water Dispenser Repair",
+    "Washing Machine Repair",
+    "TV / Display Repair",
+    "Water Heater Service",
+    "Mixer / Grinder Fix"
+  ],
+  "unchanged": [
+    "LAN / WAN Setup",
+    "Wi-Fi Router Config",
+    "Network Troubleshoot",
+    "Firewall & Security",
+    "VPN Setup",
+    "Cable Management",
+    "DB Board Upgrade",
+    "Solar Panel Install",
+    "CCTV Installation",
+    "DVR / NVR Setup",
+    "Camera Maintenance",
+    "IP Camera Config",
+    "Night Vision Setup",
+    "Video Door Bell",
+    "AC Installation",
+    "AC Service / Cleaning",
+    "AC Repair",
+    "PC Assembly",
+    "Laptop Repair",
+    "Virus Removal",
+    "RAM / SSD Upgrade",
+    "Printer Setup",
+    "Data Recovery",
+    "Refrigerator Repair",
+    "Microwave Repair",
+    "Plumbing Repair",
+    "Bathroom Fitting",
+    "Motor Pump Service",
+    "Door / Lock Repair",
+    "Tile / Grout Fix",
+    "False Ceiling Work",
+    "Smart Lighting Setup",
+    "Smart Lock Install",
+    "Home Automation Hub",
+    "Smart TV Setup",
+    "CCTV + Smart Alert",
+    "Smart Irrigation",
+    "Tractor Renting",
+    "Crop Harvesting",
+    "Pesticide Spraying"
+  ],
+  "log": [
+    {
+      "serviceName": "House Wiring",
+      "oldImage": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80",
+      "newImage": "/assets/images/house_wiring.png",
+      "reason": "Replaced unrelated pipe image with professional electrician wiring image."
+    },
+    {
+      "serviceName": "Switchboard Repair",
+      "oldImage": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80",
+      "newImage": "/assets/images/switchboard_repair.png",
+      "reason": "Optional upgrade: specific switchboard repair photo."
+    },
+    {
+      "serviceName": "Ceiling Fan Install",
+      "oldImage": "/assets/images/ceiling_fan_install.png",
+      "newImage": "/assets/images/ceiling_fan_install.png",
+      "reason": "Replaced chair image with technician installing ceiling fan."
+    },
+    {
+      "serviceName": "Earthing & Testing",
+      "oldImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&q=80",
+      "newImage": "/assets/images/earthing_test.png",
+      "reason": "Optional upgrade: electrician performing earthing test."
+    },
+    {
+      "serviceName": "Gas Refilling",
+      "oldImage": "https://images.unsplash.com/photo-1543512214-318c7553f230?w=600&q=80",
+      "newImage": "/assets/images/gas_refilling.png",
+      "reason": "Replaced gorilla image with AC refrigerant gas refill photo."
+    },
+    {
+      "serviceName": "Exhaust Fan Fix",
+      "oldImage": "/assets/images/exhaust_fan_fix.png",
+      "newImage": "/assets/images/exhaust_fan_fix.png",
+      "reason": "Replaced software/code image with proper technician repairing exhaust fan."
+    },
+    {
+      "serviceName": "Water Dispenser Repair",
+      "oldImage": "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?w=600&q=80",
+      "newImage": "/assets/images/water_dispenser_repair.png",
+      "reason": "Optional upgrade: technician repairing water dispenser."
+    },
+    {
+      "serviceName": "Washing Machine Repair",
+      "oldImage": "/assets/images/washing_machine_repair.png",
+      "newImage": "/assets/images/washing_machine_repair.png",
+      "reason": "Replaced street image with technician repairing washing machine."
+    },
+    {
+      "serviceName": "TV / Display Repair",
+      "oldImage": "https://images.unsplash.com/photo-1593359677879-a4bb92f4834c?w=600&q=80",
+      "newImage": "/assets/images/tv_repair.png",
+      "reason": "Fixed missing image with LED TV repair technician."
+    },
+    {
+      "serviceName": "Water Heater Service",
+      "oldImage": "https://images.unsplash.com/photo-1604014237256-11d475e2a2d8?w=600&q=80",
+      "newImage": "/assets/images/water_heater_service.png",
+      "reason": "Optional upgrade: technician repairing water heater."
+    },
+    {
+      "serviceName": "Mixer / Grinder Fix",
+      "oldImage": "https://images.unsplash.com/photo-1591689937610-7b783dba93a4?w=600&q=80",
+      "newImage": "/assets/images/mixer_grinder_fix.png",
+      "reason": "Optional upgrade: technician repairing mixer grinder."
+    }
+  ]
+}
