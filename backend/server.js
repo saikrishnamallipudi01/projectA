@@ -17,7 +17,18 @@ const allowedOrigins = [
   'http://localhost:3000'
 ].filter(Boolean);
 
-app.use(cors({ origin: allowedOrigins, credentials: true }));
+// Allow dynamic origins for deployment (EC2) or specific listed origins
+app.use(cors({ 
+  origin: (origin, callback) => {
+    // If no origin (e.g. mobile apps, curl) or if it's in the allowed list
+    if (!origin || allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    }
+    // Alternatively, to just allow any origin dynamically for EC2 without disturbing too much:
+    return callback(null, true); 
+  }, 
+  credentials: true 
+}));
 app.use(helmet({
   crossOriginResourcePolicy: false,
 }));
