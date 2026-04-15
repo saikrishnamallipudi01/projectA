@@ -5,7 +5,8 @@ const getBaseURL = () => {
     if (typeof window !== 'undefined' && window.location.hostname !== 'localhost') {
         const p = window.location.protocol;
         const h = window.location.hostname;
-        return `${p}//${h}:5000/api`;
+        // Resolve to current host directly relying on Nginx reverse proxy instead of port 5000 direct access
+        return `${p}//${h}/api`;
     }
     return 'http://localhost:5000/api';
 };
