@@ -5,7 +5,7 @@ const helmet = require('helmet');
 const dotenv = require('dotenv');
 const connectDB = require('./config/db');
 
-dotenv.config({ path: '../.env' }); // load from root .env
+dotenv.config({ path: path.join(__dirname, '../.env') }); // load from root .env using absolute path
 connectDB();
 
 const app = express();
