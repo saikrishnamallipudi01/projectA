@@ -1,13 +1,25 @@
 import axios from 'axios';
 
 const getBaseURL = () => {
-    if (import.meta.env.VITE_API_URL) return import.meta.env.VITE_API_URL;
-    if (typeof window !== 'undefined' && window.location.hostname !== 'localhost') {
+    // If running on localhost, prefer VITE_API_URL or default to local 5000
+    if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
+        return import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+    }
+    
+    // If running on a remote server (deployment)
+    if (typeof window !== 'undefined') {
         const p = window.location.protocol;
         const h = window.location.hostname;
-        // Resolve to current host directly relying on Nginx reverse proxy instead of port 5000 direct access
+        
+        // Check if there's a specific production URL set in VITE_API_URL that ISN'T localhost
+        if (import.meta.env.VITE_API_URL && !import.meta.env.VITE_API_URL.includes('localhost')) {
+            return import.meta.env.VITE_API_URL;
+        }
+
+        // Default to same host with /api prefix (typical Nginx setup)
         return `${p}//${h}/api`;
     }
+    
     return 'http://localhost:5000/api';
 };
 

@@ -5,3 +5,12 @@ dist/
 build/
 .DS_Store
 *.log
+*.json
+!package.json
+!package-lock.json
+!*config.json
+*.txt
+build_output*
+eslint_report.json
+lint_output.txt
+Project_Code.*
