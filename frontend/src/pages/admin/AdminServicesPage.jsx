@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import api from '../../api/axiosInstance';
 import toast from 'react-hot-toast';
 import { resolveImagePath } from '../../utils/imagePath';
@@ -162,9 +163,9 @@ const AdminServicesPage = () => {
                 </table>
             </div>
 
-            {isModalOpen && (
-                <div className="modal-overlay" style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(10px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1000 }}>
-                    <div className="modal-content" style={{ background: 'white', padding: '2rem', borderRadius: 24, width: '100%', maxWidth: '600px', maxHeight: '90vh', overflowY: 'auto', boxShadow: '0 25px 50px -12px rgba(0,0,0,0.5)' }}>
+            {isModalOpen && createPortal(
+                <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(10px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 9999 }}>
+                    <div style={{ background: 'white', padding: '2rem', borderRadius: 24, width: '100%', maxWidth: '600px', maxHeight: '90vh', overflowY: 'auto', boxShadow: '0 25px 50px -12px rgba(0,0,0,0.5)', margin: '0 1rem' }}>
                         <h3 className="sec-title" style={{ fontSize: '1.5rem', marginBottom: '1.5rem' }}>{editingService ? 'Edit Service' : 'Add New Service'}</h3>
                         <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                             <div className="fg">
@@ -218,7 +219,8 @@ const AdminServicesPage = () => {
                             </div>
                         </form>
                     </div>
-                </div>
+                </div>,
+                document.body
             )}
         </div>
     );
