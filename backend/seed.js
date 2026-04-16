@@ -8,8 +8,11 @@ const Service = require('./models/Service');
 const Technician = require('./models/Technician');
 
 const path = require('path');
-
+// Prioritize root .env, then fallback to local .env in backend/
 dotenv.config({ path: path.join(__dirname, '../.env') });
+if (!process.env.MONGO_URI) {
+    dotenv.config({ path: path.join(__dirname, '.env') });
+}
 
 const seedData = async () => {
     try {
@@ -133,7 +136,15 @@ const seedData = async () => {
                 image: 'https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=800&q=80',
                 order: 8
             },
-            
+            {
+                id: 'agriculture',
+                name: 'Agriculture',
+                icon: '🚜',
+                color: '#10b981',
+                tagline: 'Technical solutions and machinery for modern farming.',
+                image: 'https://images.unsplash.com/photo-1592982537447-6f2a6a0c6c06?w=800&q=80',
+                order: 9
+            },
         ];
         const categories = await Category.insertMany(categoriesData);
 
